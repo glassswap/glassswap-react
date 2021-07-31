@@ -134,6 +134,41 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 11,
+    isPsc: true,
+    isTokenOnly: true,
+    lpSymbol: 'MATIC',
+    lpAddresses: {
+      97: '',
+      56: '0xd903a5152999168de106cfdd051f3e8975f605c2', // MATIC-BUSD
+    },
+    tokenSymbol: 'MATIC',
+    tokenAddresses: {
+      97: '',
+      56: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 12,
+    isPsc: true,
+    isTokenOnly: true,
+    lpSymbol: 'DOT',
+    lpAddresses: {
+      97: '',
+      56: '0xdd5bad8f8b360d76d12fda230f8baf42fe0022cf', // DOT-BNB
+    },
+    tokenSymbol: 'DOT',
+    tokenAddresses: {
+      97: '',
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  
 ]
 
 export default farms
