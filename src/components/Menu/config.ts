@@ -44,7 +44,7 @@ const config: MenuEntry[] = [
   {
     label: 'Techrate Audit',
     icon: 'ShieldIcon',
-    href: 'https://glassswap.money/files/techrateaudit.pdf',
+    href: 'https://glasswap.finance/files/techrateaudit.pdf',
     target: '_blank',
   },
   // {
