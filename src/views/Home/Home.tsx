@@ -95,7 +95,7 @@ const Home: React.FC = () => {
     <>
       <Header>
         <Heading as="h1" size="xl" color="secondary" mb="24px">
-          {TranslateString(578, 'AMM +Yield Aggregator on Binance Smartchain')}
+          {TranslateString(578, 'The Best Yield farm on Binance Smartchain')}
           <Countdown
             date={new Date('August 12, 2021 16:44:06')}
             intervalDelay={0}
