@@ -35,12 +35,12 @@ const config: MenuEntry[] = [
     icon: 'BushIcon',
     href: '/bush',
   },
-  // {
-  //   label: 'Techrate Audit',
-  //   icon: 'ShieldIcon',
-  //   href: 'https://glassswap.money/files/audit_techrate.pdf',
-  //   target: '_blank',
-  // },
+  {
+    label: 'White Paper',
+    icon: 'ShieldIcon',
+    href: 'https://glasswap.finance/files/Glasswap-Litepaper-v1.pdf',
+    target: '_blank',
+  },
   // {
   //   label: 'Certik Audit (In-Progress)',
   //   icon: 'ShieldIcon',
