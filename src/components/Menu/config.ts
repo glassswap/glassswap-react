@@ -41,6 +41,12 @@ const config: MenuEntry[] = [
     href: 'https://glasswap.finance/files/Glasswap-Litepaper-v1.pdf',
     target: '_blank',
   },
+  {
+    label: 'Techrate Audit',
+    icon: 'ShieldIcon',
+    href: 'https://glassswap.money/files/techrateaudit.pdf',
+    target: '_blank',
+  },
   // {
   //   label: 'Certik Audit (In-Progress)',
   //   icon: 'ShieldIcon',
